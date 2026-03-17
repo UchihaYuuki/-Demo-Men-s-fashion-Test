@@ -12,7 +12,7 @@ const orderService = {
     }
   },
   // Tạo đơn hàng mới
-createOrder: async (orderData) => {
+createOrder1: async (orderData) => {
     try {
       const response = await API.post('/orders', orderData);
       return response;
