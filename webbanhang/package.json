@@ -2,14 +2,9 @@
   "name": "webbanhang",
   "version": "0.1.0",
   "private": true,
-  "dependencies": {
-    "axios": "^1.13.6",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-hot-toast": "^2.4.0",
-    "react-icons": "^4.7.1",
-    "react-router-dom": "^6.8.0",
-    "react-scripts": "5.0.1"
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "json-server": "^0.17.4"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -37,8 +32,7 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {
-    "concurrently": "^8.2.2",
-    "json-server": "^0.17.4"
+  "dependencies": {
+    "react-scripts": "^5.0.1"
   }
 }
