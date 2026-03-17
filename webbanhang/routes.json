@@ -1,0 +1,6 @@
+{
+ 
+  "/api/*": "/$1",
+  "/orders/:id": "/orders/:id",
+  "/products/category/:cat": "/products?category=:cat"
+}

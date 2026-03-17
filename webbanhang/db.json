@@ -1,0 +1,922 @@
+{
+  "orders": [
+    {
+      "id": "ORD240301",
+      "orderNumber": "YUK123456",
+      "customerName": "Nguyễn Đức Thích",
+      "phone": "0972405120",
+      "email": "thich.nd@gmail.com",
+      "address": "123 Đường Láng, Đống Đa, Hà Nội",
+      "items": [
+        {
+          "id": 11,
+          "name": "Sơ mi dài tay EATB011",
+          "quantity": 2,
+          "price": 250000,
+          "size": "L"
+        }
+      ],
+      "subtotal": 500000,
+      "shipping": 30000,
+      "discount": 0,
+      "total": 530000,
+      "paymentMethod": "banking",
+      "status": "completed",
+      "createdAt": "2025-03-15T10:30:00.000Z",
+      "note": "Giao hàng giờ hành chính"
+    },
+    {
+      "id": "ORD240302",
+      "orderNumber": "YUK789012",
+      "customerName": "Nguyễn Văn A",
+      "phone": "0987654321",
+      "email": "a.nguyen@gmail.com",
+      "address": "456 Đường Lê Lợi, Quận 1, TP.HCM",
+      "items": [
+        {
+          "id": 12,
+          "name": "Sơ mi dài tay EATB011",
+          "quantity": 1,
+          "price": 250000,
+          "size": "M"
+        }
+      ],
+      "subtotal": 250000,
+      "shipping": 30000,
+      "discount": 0,
+      "total": 280000,
+      "paymentMethod": "cod",
+      "status": "pending",
+      "createdAt": "2025-03-16T09:15:00.000Z",
+      "note": ""
+    },
+    {
+      "id": "ORD260301",
+      "orderNumber": "YUK260301",
+      "customerName": "Nguyễn Văn Tuấn",
+      "phone": "0912345678",
+      "email": "tuan.nguyen@gmail.com",
+      "address": "123 Nguyễn Trãi, Thanh Xuân, Hà Nội",
+      "items": [
+        {
+          "id": 1,
+          "name": "Áo T shirt trơn in thể thao GSTS018",
+          "quantity": 2,
+          "price": 249000,
+          "size": "L"
+        }
+      ],
+      "subtotal": 498000,
+      "shipping": 30000,
+      "discount": 0,
+      "total": 528000,
+      "paymentMethod": "momo",
+      "status": "completed",
+      "createdAt": "2026-03-01T09:30:00.000Z",
+      "note": ""
+    },
+    {
+      "id": "ORD260302",
+      "orderNumber": "YUK260302",
+      "customerName": "Trần Văn Hùng",
+      "phone": "0987123456",
+      "email": "hung.tran@gmail.com",
+      "address": "456 Lê Lợi, Quận 1, TP.HCM",
+      "items": [
+        {
+          "id": 2,
+          "name": "Áo polo trơn kẻ in logo ngực GSTP846",
+          "quantity": 1,
+          "price": 294100,
+          "size": "M"
+        },
+        {
+          "id": 3,
+          "name": "Quần Jeans basic slim GABJ861",
+          "quantity": 1,
+          "price": 285000,
+          "size": "32"
+        }
+      ],
+      "subtotal": 579100,
+      "shipping": 0,
+      "discount": 0,
+      "total": 579100,
+      "paymentMethod": "banking",
+      "status": "completed",
+      "createdAt": "2026-03-02T14:15:00.000Z",
+      "note": "Giao giờ hành chính"
+    },
+    {
+      "id": "ORD260303",
+      "orderNumber": "YUK260303",
+      "customerName": "Lê Văn Đức",
+      "phone": "0978234567",
+      "email": "duc.le@gmail.com",
+      "address": "789 Hoàng Diệu, Hải Châu, Đà Nẵng",
+      "items": [
+        {
+          "id": 4,
+          "name": "Áo T shirt họa tiết in logo Horse FSTS026",
+          "quantity": 3,
+          "price": 250000,
+          "size": "XL"
+        }
+      ],
+      "subtotal": 750000,
+      "shipping": 0,
+      "discount": 50000,
+      "total": 700000,
+      "paymentMethod": "cod",
+      "status": "shipping",
+      "createdAt": "2026-03-03T11:20:00.000Z",
+      "note": ""
+    },
+    {
+      "id": "ORD260304",
+      "orderNumber": "YUK260304",
+      "customerName": "Phạm Văn Long",
+      "phone": "0967345678",
+      "email": "long.pham@gmail.com",
+      "address": "321 Trần Hưng Đạo, Ninh Kiều, Cần Thơ",
+      "items": [
+        {
+          "id": 5,
+          "name": "Áo polo trơn bo kẻ in logo YuuKi ngực GSTP845",
+          "quantity": 2,
+          "price": 424150,
+          "size": "L"
+        }
+      ],
+      "subtotal": 848300,
+      "shipping": 0,
+      "discount": 0,
+      "total": 848300,
+      "paymentMethod": "banking",
+      "status": "pending",
+      "createdAt": "2026-03-04T16:45:00.000Z",
+      "note": "Gọi trước khi giao"
+    },
+    {
+      "id": "ORD260305",
+      "orderNumber": "YUK260305",
+      "customerName": "Hoàng Văn Minh",
+      "phone": "0938456789",
+      "email": "minh.hoang@gmail.com",
+      "address": "654 Nguyễn Huệ, Quận 1, TP.HCM",
+      "items": [
+        {
+          "id": 6,
+          "name": "Áo polo kẻ bo tay GSTP068",
+          "quantity": 1,
+          "price": 250000,
+          "size": "S"
+        },
+        {
+          "id": 7,
+          "name": "Quần short gió cạp lót chun GSBW005",
+          "quantity": 1,
+          "price": 280000,
+          "size": "M"
+        }
+      ],
+      "subtotal": 530000,
+      "shipping": 30000,
+      "discount": 0,
+      "total": 560000,
+      "paymentMethod": "momo",
+      "status": "shipping",
+      "createdAt": "2026-03-05T10:10:00.000Z",
+      "note": ""
+    },
+    {
+      "id": "ORD260206",
+      "orderNumber": "YUK260206",
+      "customerName": "Đỗ Văn Thắng",
+      "phone": "0948567890",
+      "email": "thang.do@gmail.com",
+      "address": "123 Cầu Giấy, Hà Nội",
+      "items": [
+        {
+          "id": 8,
+          "name": "Áo T shirt họa tiết in Water Nests FSTS020",
+          "quantity": 2,
+          "price": 250000,
+          "size": "M"
+        }
+      ],
+      "subtotal": 500000,
+      "shipping": 30000,
+      "discount": 0,
+      "total": 530000,
+      "paymentMethod": "cod",
+      "status": "completed",
+      "createdAt": "2026-02-06T13:30:00.000Z",
+      "note": ""
+    },
+    {
+      "id": "ORD260207",
+      "orderNumber": "YUK260207",
+      "customerName": "Bùi Văn Cường",
+      "phone": "0958678901",
+      "email": "cuong.bui@gmail.com",
+      "address": "456 Nguyễn Văn Linh, Quận 7, TP.HCM",
+      "items": [
+        {
+          "id": 9,
+          "name": "Quần Jeans basic slim EABJ012",
+          "quantity": 2,
+          "price": 250000,
+          "size": "30"
+        }
+      ],
+      "subtotal": 500000,
+      "shipping": 30000,
+      "discount": 0,
+      "total": 530000,
+      "paymentMethod": "banking",
+      "status": "completed",
+      "createdAt": "2026-02-07T09:45:00.000Z",
+      "note": ""
+    },
+    {
+      "id": "ORD260208",
+      "orderNumber": "YUK260208",
+      "customerName": "Dương Văn Nam",
+      "phone": "0968789012",
+      "email": "nam.duong@gmail.com",
+      "address": "789 Hùng Vương, Hải Châu, Đà Nẵng",
+      "items": [
+        {
+          "id": 10,
+          "name": "Áo T shirt thể thao basic FSTS002",
+          "quantity": 3,
+          "price": 250000,
+          "size": "XL"
+        }
+      ],
+      "subtotal": 750000,
+      "shipping": 0,
+      "discount": 50000,
+      "total": 700000,
+      "paymentMethod": "momo",
+      "status": "shipping",
+      "createdAt": "2026-02-08T15:20:00.000Z",
+      "note": ""
+    },
+    {
+      "id": "ORD260209",
+      "orderNumber": "YUK260209",
+      "customerName": "Vũ Văn Hải",
+      "phone": "0978890123",
+      "email": "hai.vu@gmail.com",
+      "address": "321 Trường Chinh, Kiến An, Hải Phòng",
+      "items": [
+        {
+          "id": 11,
+          "name": "Sơ mi dài tay trơn dệt hiệu ứng EATB011",
+          "quantity": 2,
+          "price": 250000,
+          "size": "L"
+        }
+      ],
+      "subtotal": 500000,
+      "shipping": 30000,
+      "discount": 0,
+      "total": 530000,
+      "paymentMethod": "cod",
+      "status": "pending",
+      "createdAt": "2026-02-09T11:15:00.000Z",
+      "note": ""
+    },
+    {
+      "id": "ORD260210",
+      "orderNumber": "YUK260210",
+      "customerName": "Ngô Văn Phú",
+      "phone": "0988901234",
+      "email": "phu.ngo@gmail.com",
+      "address": "654 Lê Duẩn, Thanh Khê, Đà Nẵng",
+      "items": [
+        {
+          "id": 12,
+          "name": "Áo khoác 3 lớp cổ đứng khuy bấm EWCP001",
+          "quantity": 1,
+          "price": 350000,
+          "size": "XL"
+        }
+      ],
+      "subtotal": 350000,
+      "shipping": 30000,
+      "discount": 0,
+      "total": 380000,
+      "paymentMethod": "banking",
+      "status": "completed",
+      "createdAt": "2026-02-10T14:30:00.000Z",
+      "note": ""
+    },
+    {
+      "id": "ORD260111",
+      "orderNumber": "YUK260111",
+      "customerName": "Lý Văn Thành",
+      "phone": "0999012345",
+      "email": "thanh.ly@gmail.com",
+      "address": "123 Lạc Long Quân, Tây Hồ, Hà Nội",
+      "items": [
+        {
+          "id": 13,
+          "name": "Quần âu slim-fit cạp trơn FABT007",
+          "quantity": 2,
+          "price": 250000,
+          "size": "32"
+        }
+      ],
+      "subtotal": 500000,
+      "shipping": 30000,
+      "discount": 0,
+      "total": 530000,
+      "paymentMethod": "momo",
+      "status": "completed",
+      "createdAt": "2026-01-11T10:00:00.000Z",
+      "note": ""
+    },
+    {
+      "id": "ORD260112",
+      "orderNumber": "YUK260112",
+      "customerName": "Trịnh Văn Đạt",
+      "phone": "0909123456",
+      "email": "dat.trinh@gmail.com",
+      "address": "456 Hoàng Hoa Thám, Ba Đình, Hà Nội",
+      "items": [
+        {
+          "id": 14,
+          "name": "Áo polo monogram in tràn họa tiết GSTP051",
+          "quantity": 1,
+          "price": 299000,
+          "size": "L"
+        }
+      ],
+      "subtotal": 299000,
+      "shipping": 30000,
+      "discount": 0,
+      "total": 329000,
+      "paymentMethod": "cod",
+      "status": "shipping",
+      "createdAt": "2026-01-12T16:20:00.000Z",
+      "note": ""
+    },
+    {
+      "id": "ORD260113",
+      "orderNumber": "YUK260113",
+      "customerName": "Mai Văn Trung",
+      "phone": "0918234567",
+      "email": "trung.mai@gmail.com",
+      "address": "789 Phạm Văn Đồng, Thủ Đức, TP.HCM",
+      "items": [
+        {
+          "id": 15,
+          "name": "Sơ mi ngắn tay trơn thêu logo GSTB020",
+          "quantity": 3,
+          "price": 190000,
+          "size": "L"
+        }
+      ],
+      "subtotal": 570000,
+      "shipping": 0,
+      "discount": 0,
+      "total": 570000,
+      "paymentMethod": "banking",
+      "status": "pending",
+      "createdAt": "2026-01-13T09:45:00.000Z",
+      "note": ""
+    },
+    {
+      "id": "ORD260114",
+      "orderNumber": "YUK260114",
+      "customerName": "Đặng Văn Tùng",
+      "phone": "0928345678",
+      "email": "tung.dang@gmail.com",
+      "address": "321 Nguyễn Văn Cừ, Long Biên, Hà Nội",
+      "items": [
+        {
+          "id": 16,
+          "name": "Quần kaki dài basic cạp tender FABK0011",
+          "quantity": 2,
+          "price": 220000,
+          "size": "30"
+        }
+      ],
+      "subtotal": 440000,
+      "shipping": 30000,
+      "discount": 0,
+      "total": 470000,
+      "paymentMethod": "momo",
+      "status": "completed",
+      "createdAt": "2026-01-14T13:15:00.000Z",
+      "note": ""
+    },
+    {
+      "id": "ORD260115",
+      "orderNumber": "YUK260115",
+      "customerName": "Lương Văn Sơn",
+      "phone": "0938456789",
+      "email": "son.luong@gmail.com",
+      "address": "654 Bà Triệu, Hai Bà Trưng, Hà Nội",
+      "items": [
+        {
+          "id": 17,
+          "name": "Áo polo trơn vải họa tiết GSTP642",
+          "quantity": 2,
+          "price": 240000,
+          "size": "XL"
+        }
+      ],
+      "subtotal": 480000,
+      "shipping": 30000,
+      "discount": 0,
+      "total": 510000,
+      "paymentMethod": "cod",
+      "status": "shipping",
+      "createdAt": "2026-01-15T15:30:00.000Z",
+      "note": ""
+    },
+    {
+      "id": "ORD251216",
+      "orderNumber": "YUK251216",
+      "customerName": "Hồ Văn Quân",
+      "phone": "0948567890",
+      "email": "quan.ho@gmail.com",
+      "address": "123 Xô Viết Nghệ Tĩnh, Hải Châu, Đà Nẵng",
+      "items": [
+        {
+          "id": 18,
+          "name": "Áo T shirt trơn in logo ngực FSTS001",
+          "quantity": 2,
+          "price": 290000,
+          "size": "M"
+        }
+      ],
+      "subtotal": 580000,
+      "shipping": 0,
+      "discount": 30000,
+      "total": 550000,
+      "paymentMethod": "banking",
+      "status": "completed",
+      "createdAt": "2025-12-16T10:30:00.000Z",
+      "note": ""
+    },
+    {
+      "id": "ORD251217",
+      "orderNumber": "YUK251217",
+      "customerName": "Vương Văn Khải",
+      "phone": "0958678901",
+      "email": "khai.vuong@gmail.com",
+      "address": "456 Lê Hồng Phong, Ngô Quyền, Hải Phòng",
+      "items": [
+        {
+          "id": 19,
+          "name": "Quần jeans basic slim GABJ844",
+          "quantity": 1,
+          "price": 480000,
+          "size": "34"
+        }
+      ],
+      "subtotal": 480000,
+      "shipping": 30000,
+      "discount": 0,
+      "total": 510000,
+      "paymentMethod": "momo",
+      "status": "shipping",
+      "createdAt": "2025-12-17T14:45:00.000Z",
+      "note": ""
+    },
+    {
+      "id": "ORD251218",
+      "orderNumber": "YUK251218",
+      "customerName": "Tạ Văn Bình",
+      "phone": "0968789012",
+      "email": "binh.ta@gmail.com",
+      "address": "789 Trần Phú, Hà Đông, Hà Nội",
+      "items": [
+        {
+          "id": 20,
+          "name": "Sơ mi dài tay kẻ caro FATB045",
+          "quantity": 2,
+          "price": 370000,
+          "size": "L"
+        }
+      ],
+      "subtotal": 740000,
+      "shipping": 0,
+      "discount": 50000,
+      "total": 690000,
+      "paymentMethod": "cod",
+      "status": "pending",
+      "createdAt": "2025-12-18T09:20:00.000Z",
+      "note": "Gọi trước khi giao"
+    },
+    {
+      "id": "ORD251219",
+      "orderNumber": "YUK251219",
+      "customerName": "Phùng Văn Kiên",
+      "phone": "0978890123",
+      "email": "kien.phung@gmail.com",
+      "address": "321 Quang Trung, Gò Vấp, TP.HCM",
+      "items": [
+        {
+          "id": 21,
+          "name": "Áo khoác gió 2 lớp lót lông EWCU001",
+          "quantity": 1,
+          "price": 1250000,
+          "size": "XL"
+        }
+      ],
+      "subtotal": 1250000,
+      "shipping": 0,
+      "discount": 0,
+      "total": 1250000,
+      "paymentMethod": "banking",
+      "status": "completed",
+      "createdAt": "2025-12-19T16:10:00.000Z",
+      "note": ""
+    },
+    {
+      "id": "ORD251220",
+      "orderNumber": "YUK251220",
+      "customerName": "Đinh Văn Hoàng",
+      "phone": "0988901234",
+      "email": "hoang.dinh@gmail.com",
+      "address": "654 Nguyễn Trãi, Thanh Xuân, Hà Nội",
+      "items": [
+        {
+          "id": 22,
+          "name": "Quần short khaki cạp chun FSBK010",
+          "quantity": 3,
+          "price": 220000,
+          "size": "L"
+        }
+      ],
+      "subtotal": 660000,
+      "shipping": 0,
+      "discount": 0,
+      "total": 660000,
+      "paymentMethod": "momo",
+      "status": "shipping",
+      "createdAt": "2025-12-20T11:30:00.000Z",
+      "note": ""
+    },
+    {
+      "id": "ORD251121",
+      "orderNumber": "YUK251121",
+      "customerName": "Trương Văn Huy",
+      "phone": "0999012345",
+      "email": "huy.truong@gmail.com",
+      "address": "123 Điện Biên Phủ, Quận 3, TP.HCM",
+      "items": [
+        {
+          "id": 23,
+          "name": "Áo polo trơn in logo ngực TRN GSTP843",
+          "quantity": 2,
+          "price": 320000,
+          "size": "XL"
+        }
+      ],
+      "subtotal": 640000,
+      "shipping": 0,
+      "discount": 40000,
+      "total": 600000,
+      "paymentMethod": "cod",
+      "status": "completed",
+      "createdAt": "2025-11-21T13:45:00.000Z",
+      "note": ""
+    },
+    {
+      "id": "ORD251122",
+      "orderNumber": "YUK251122",
+      "customerName": "Lâm Văn Phúc",
+      "phone": "0909123456",
+      "email": "phuc.lam@gmail.com",
+      "address": "456 Lý Thường Kiệt, Hải Châu, Đà Nẵng",
+      "items": [
+        {
+          "id": 24,
+          "name": "Áo T shirt trơn in logo ngực GSTS006",
+          "quantity": 3,
+          "price": 279000,
+          "size": "L"
+        }
+      ],
+      "subtotal": 837000,
+      "shipping": 0,
+      "discount": 50000,
+      "total": 787000,
+      "paymentMethod": "banking",
+      "status": "pending",
+      "createdAt": "2025-11-22T10:15:00.000Z",
+      "note": ""
+    },
+    {
+      "id": "ORD251123",
+      "orderNumber": "YUK251123",
+      "customerName": "Nguyễn Hữu Thịnh",
+      "phone": "0918234567",
+      "email": "thinh.nguyen@gmail.com",
+      "address": "789 Nguyễn Văn Linh, Quận 7, TP.HCM",
+      "items": [
+        {
+          "id": 25,
+          "name": "Sơ mi dài tay trơn dệt kim FATB001",
+          "quantity": 2,
+          "price": 329000,
+          "size": "L"
+        }
+      ],
+      "subtotal": 658000,
+      "shipping": 0,
+      "discount": 0,
+      "total": 658000,
+      "paymentMethod": "momo",
+      "status": "shipping",
+      "createdAt": "2025-11-23T15:30:00.000Z",
+      "note": ""
+    },
+    {
+      "id": "ORD251124",
+      "orderNumber": "YUK251124",
+      "customerName": "Trần Đức Anh",
+      "phone": "0928345678",
+      "email": "anh.tran@gmail.com",
+      "address": "321 Hoàng Văn Thụ, Cầu Giấy, Hà Nội",
+      "items": [
+        {
+          "id": 26,
+          "name": "Quần jeans basic slim GABJ846",
+          "quantity": 1,
+          "price": 620000,
+          "size": "32"
+        }
+      ],
+      "subtotal": 620000,
+      "shipping": 0,
+      "discount": 0,
+      "total": 620000,
+      "paymentMethod": "cod",
+      "status": "completed",
+      "createdAt": "2025-11-24T09:45:00.000Z",
+      "note": ""
+    },
+    {
+      "id": "ORD251125",
+      "orderNumber": "YUK251125",
+      "customerName": "Lê Bảo Long",
+      "phone": "0938456789",
+      "email": "long.le@gmail.com",
+      "address": "654 Trường Chinh, Kiến An, Hải Phòng",
+      "items": [
+        {
+          "id": 27,
+          "name": "Quần kaki dài basic cạp tender FABK001",
+          "quantity": 2,
+          "price": 290000,
+          "size": "31"
+        }
+      ],
+      "subtotal": 580000,
+      "shipping": 0,
+      "discount": 0,
+      "total": 580000,
+      "paymentMethod": "banking",
+      "status": "pending",
+      "createdAt": "2025-11-25T14:20:00.000Z",
+      "note": ""
+    },
+    {
+      "id": "ORD251026",
+      "orderNumber": "YUK251026",
+      "customerName": "Phạm Quang Vinh",
+      "phone": "0948567890",
+      "email": "vinh.pham@gmail.com",
+      "address": "123 Đinh Tiên Hoàng, Quận 1, TP.HCM",
+      "items": [
+        {
+          "id": 28,
+          "name": "Áo khoác Puffer cổ cao FWCF004",
+          "quantity": 1,
+          "price": 680000,
+          "size": "L"
+        }
+      ],
+      "subtotal": 680000,
+      "shipping": 0,
+      "discount": 0,
+      "total": 680000,
+      "paymentMethod": "momo",
+      "status": "completed",
+      "createdAt": "2025-10-26T11:30:00.000Z",
+      "note": ""
+    },
+    {
+      "id": "ORD251027",
+      "orderNumber": "YUK251027",
+      "customerName": "Hoàng Minh Nhật",
+      "phone": "0958678901",
+      "email": "nhat.hoang@gmail.com",
+      "address": "456 Nguyễn Văn Cừ, Long Biên, Hà Nội",
+      "items": [
+        {
+          "id": 29,
+          "name": "Áo polo kẻ phối màu GSTP653",
+          "quantity": 2,
+          "price": 450000,
+          "size": "XL"
+        }
+      ],
+      "subtotal": 900000,
+      "shipping": 0,
+      "discount": 100000,
+      "total": 800000,
+      "paymentMethod": "banking",
+      "status": "shipping",
+      "createdAt": "2025-10-27T13:15:00.000Z",
+      "note": ""
+    },
+    {
+      "id": "ORD251028",
+      "orderNumber": "YUK251028",
+      "customerName": "Đào Duy Khánh",
+      "phone": "0968789012",
+      "email": "khanh.dao@gmail.com",
+      "address": "789 Phan Đăng Lưu, Hải Châu, Đà Nẵng",
+      "items": [
+        {
+          "id": 30,
+          "name": "Quần short đũi cạp chun FSBI001",
+          "quantity": 3,
+          "price": 350000,
+          "size": "M"
+        }
+      ],
+      "subtotal": 1050000,
+      "shipping": 0,
+      "discount": 50000,
+      "total": 1000000,
+      "paymentMethod": "cod",
+      "status": "pending",
+      "createdAt": "2025-10-28T15:45:00.000Z",
+      "note": ""
+    },
+    {
+      "id": "ORD251029",
+      "orderNumber": "YUK251029",
+      "customerName": "Vũ Đình Trọng",
+      "phone": "0978890123",
+      "email": "trong.vu@gmail.com",
+      "address": "321 Lê Văn Sỹ, Quận 3, TP.HCM",
+      "items": [
+        {
+          "id": 1,
+          "name": "Áo T shirt trơn in thể thao GSTS018",
+          "quantity": 2,
+          "price": 249000,
+          "size": "XL"
+        },
+        {
+          "id": 2,
+          "name": "Áo polo trơn kẻ in logo ngực GSTP846",
+          "quantity": 1,
+          "price": 294100,
+          "size": "L"
+        }
+      ],
+      "subtotal": 792100,
+      "shipping": 0,
+      "discount": 0,
+      "total": 792100,
+      "paymentMethod": "momo",
+      "status": "completed",
+      "createdAt": "2025-10-29T10:30:00.000Z",
+      "note": ""
+    },
+    {
+      "id": "ORD251030",
+      "orderNumber": "YUK251030",
+      "customerName": "Ngô Thế Vinh",
+      "phone": "0988901234",
+      "email": "vinh.ngo@gmail.com",
+      "address": "654 Bạch Đằng, Hải Châu, Đà Nẵng",
+      "items": [
+        {
+          "id": 3,
+          "name": "Quần Jeans basic slim GABJ861",
+          "quantity": 2,
+          "price": 285000,
+          "size": "33"
+        }
+      ],
+      "subtotal": 570000,
+      "shipping": 0,
+      "discount": 0,
+      "total": 570000,
+      "paymentMethod": "banking",
+      "status": "shipping",
+      "createdAt": "2025-10-30T14:00:00.000Z",
+      "note": ""
+    },
+    {
+      "id": "ORD260305200",
+      "orderNumber": "YUK20260305253",
+      "customerName": "Admin",
+      "phone": "0972405120",
+      "email": "admin@yuuki.com",
+      "address": "Hai Phong, Hải phòng , Hải Phòng",
+      "items": [
+        {
+          "id": 2,
+          "quantity": 1,
+          "price": 294100,
+          "size": "L",
+          "image": "https://cdn.hstatic.net/products/200000690725/516104421_1149199893920257_5850816846793934718_n_9d42e5d2cbff417b925f63f96c39bdf4_master.jpg"
+        }
+      ],
+      "subtotal": 294100,
+      "shipping": 30000,
+      "discount": 0,
+      "total": 324100,
+      "paymentMethod": "cod",
+      "status": "pending",
+      "createdAt": "2026-03-05T09:34:28.997Z",
+      "note": ""
+    },
+    {
+      "id": "ORD260305534",
+      "orderNumber": "YUK20260305732",
+      "customerName": "Admin@123",
+      "phone": "0972405120",
+      "email": "admin@yuuki.com",
+      "address": "Hai Phong, Hải phòng , Hải Phòng",
+      "items": [
+        {
+          "id": 2,
+          "quantity": 1,
+          "price": 294100,
+          "size": "L",
+          "image": "https://cdn.hstatic.net/products/200000690725/516104421_1149199893920257_5850816846793934718_n_9d42e5d2cbff417b925f63f96c39bdf4_master.jpg"
+        }
+      ],
+      "subtotal": 294100,
+      "shipping": 30000,
+      "discount": 0,
+      "total": 324100,
+      "paymentMethod": "cod",
+      "status": "pending",
+      "createdAt": "2026-03-05T10:00:45.291Z",
+      "note": ""
+    },
+    {
+      "id": "ORD260305341",
+      "orderNumber": "YUK20260305666",
+      "customerName": "Admin@78",
+      "phone": "0972405120",
+      "email": "admin@yuuki.com",
+      "address": "Hai Phong, An Lão, Hải Phòng",
+      "items": [
+        {
+          "id": 1,
+          "product": {
+            "price": 249000,
+            "image": "https://cdn.hstatic.net/products/200000690725/2_c84d08a4d3984392b5b7be8a45e3e16e_master.png",
+            "code": "GSTS018"
+          },
+          "quantity": 1,
+          "price": 249000,
+          "size": "L",
+          "image": "https://cdn.hstatic.net/products/200000690725/2_c84d08a4d3984392b5b7be8a45e3e16e_master.png"
+        }
+      ],
+      "subtotal": 249000,
+      "shipping": 30000,
+      "discount": 0,
+      "total": 279000,
+      "paymentMethod": "cod",
+      "status": "pending",
+      "createdAt": "2026-03-05T10:07:51.351Z",
+      "note": ""
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Áo sơ mi trắng",
+      "price": 250000,
+      "stock": 100
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "123456",
+      "role": "admin"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

@@ -1,0 +1,512 @@
+/* src/styles/AIFashionAssistant.css */
+
+.ai-assistant-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: linear-gradient(135deg, #f5f7fa 0%, #e9ecef 100%);
+  min-height: 100vh;
+  font-size: 13px;
+}
+
+/* Header */
+.ai-header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 12px 25px;
+}
+
+.ai-header-content {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.ai-icon {
+  font-size: 28px;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 8px;
+  border-radius: 50%;
+}
+
+.ai-header h1 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.ai-header p {
+  margin: 2px 0 0;
+  font-size: 12px;
+  opacity: 0.9;
+}
+
+/* Main Layout */
+.ai-main {
+  display: flex;
+  max-width: 1200px;
+  margin: 15px auto;
+  gap: 15px;
+  padding: 0 15px;
+}
+
+/* Sidebar */
+.ai-sidebar {
+  width: 220px;
+  background: white;
+  border-radius: 10px;
+  padding: 12px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+  height: fit-content;
+  position: sticky;
+  top: 15px;
+}
+
+.ai-sidebar-header h3 {
+  margin: 0 0 12px;
+  font-size: 15px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.ai-sidebar-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: 15px;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 10px;
+  border: none;
+  background: transparent;
+  border-radius: 6px;
+  font-size: 13px;
+  color: #4a5568;
+  cursor: pointer;
+}
+
+.menu-item.active {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+/* Stats */
+.ai-stats {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid #e9ecef;
+}
+
+.stat-item {
+  text-align: center;
+  padding: 8px;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  border-radius: 6px;
+}
+
+.stat-value {
+  display: block;
+  font-size: 16px;
+  font-weight: 700;
+  color: #667eea;
+}
+
+.stat-label {
+  font-size: 10px;
+  color: #718096;
+}
+
+/* Chat Area */
+.ai-chat-area {
+  flex: 1;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 130px);
+}
+
+.chat-messages {
+  flex: 1;
+  overflow-y: auto;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.message {
+  display: flex;
+  gap: 8px;
+  max-width: 85%;
+}
+
+.message.bot {
+  align-self: flex-start;
+}
+
+.message.user {
+  align-self: flex-end;
+  flex-direction: row-reverse;
+}
+
+.message-avatar {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+}
+
+.message.bot .message-avatar {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.message.user .message-avatar {
+  background: #48bb78;
+  color: white;
+}
+
+.message-content {
+  background: #f7fafc;
+  padding: 8px 10px;
+  border-radius: 10px;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.message.user .message-content {
+  background: #667eea;
+  color: white;
+}
+
+.message-header {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 2px;
+  font-size: 10px;
+  opacity: 0.8;
+}
+
+/* Outfit Suggestions - THU NHỎ */
+.outfit-suggestions {
+  margin: 10px;
+  padding: 12px;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  border-radius: 10px;
+  border-left: 3px solid #667eea;
+}
+
+.outfit-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.outfit-header h4 {
+  margin: 0;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.close-outfit {
+  background: transparent;
+  border: none;
+  color: #999;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 2px 5px;
+}
+
+.outfit-matches {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.match-category h5 {
+  margin: 0 0 5px;
+  font-size: 12px;
+  color: #4a5568;
+}
+
+.match-items {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.match-item {
+  flex: 1;
+  min-width: 90px;
+  background: white;
+  border-radius: 6px;
+  padding: 6px;
+  cursor: pointer;
+  text-align: center;
+  border: 1px solid #e9ecef;
+}
+
+.match-item img {
+  width: 100%;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-bottom: 3px;
+}
+
+.match-item span {
+  font-size: 10px;
+  color: #2d3748;
+  display: block;
+}
+
+.outfit-info {
+  background: white;
+  padding: 8px;
+  border-radius: 6px;
+  margin-top: 10px;
+  font-size: 11px;
+}
+
+.outfit-info p {
+  margin: 3px 0;
+}
+
+/* Suggested Products */
+.suggested-products {
+  padding: 10px;
+  border-top: 1px solid #e9ecef;
+}
+
+.suggested-products h4 {
+  margin: 0 0 8px;
+  font-size: 13px;
+}
+
+.product-suggestions {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 8px;
+}
+
+.suggestion-card {
+  display: flex;
+  gap: 6px;
+  padding: 6px;
+  background: #f7fafc;
+  border-radius: 6px;
+}
+
+.suggestion-card img {
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.suggestion-info h5 {
+  font-size: 11px;
+  margin: 0 0 2px;
+  max-height: 28px;
+  overflow: hidden;
+}
+
+.suggestion-info .price {
+  font-size: 11px;
+  font-weight: 600;
+  color: #e53e3e;
+  margin: 0 0 2px;
+}
+
+.suggestion-info button {
+  padding: 2px 6px;
+  font-size: 10px;
+  background: #667eea;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* Products Grid */
+.products-grid {
+  padding: 12px;
+  overflow-y: auto;
+}
+
+.products-grid h2 {
+  margin: 0 0 12px;
+  font-size: 16px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+  gap: 10px;
+}
+
+.product-card {
+  background: white;
+  border-radius: 6px;
+  overflow: hidden;
+  border: 1px solid #e9ecef;
+  position: relative;
+}
+
+.product-card img {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+}
+
+.product-card h3 {
+  margin: 6px;
+  font-size: 11px;
+  height: 28px;
+  overflow: hidden;
+}
+
+.product-card .price {
+  margin: 0 6px 6px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #e53e3e;
+}
+
+.product-card button {
+  width: calc(100% - 12px);
+  margin: 0 6px 6px;
+  padding: 4px;
+  font-size: 10px;
+  background: #667eea;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.discount-badge {
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  background: #ef4444;
+  color: white;
+  padding: 2px 5px;
+  border-radius: 10px;
+  font-size: 9px;
+}
+
+/* Chat Input */
+.chat-input-area {
+  display: flex;
+  padding: 10px;
+  background: white;
+  border-top: 1px solid #e9ecef;
+}
+
+.chat-input-area input {
+  flex: 1;
+  padding: 8px 12px;
+  border: 1px solid #e9ecef;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+.chat-input-area button {
+  width: 36px;
+  height: 36px;
+  margin-left: 8px;
+  background: #667eea;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Typing Indicator */
+.typing-indicator {
+  display: flex;
+  gap: 3px;
+  padding: 5px;
+}
+
+.typing-indicator span {
+  width: 5px;
+  height: 5px;
+  background: #a0aec0;
+  border-radius: 50%;
+  animation: typing 1.4s infinite;
+}
+
+@keyframes typing {
+  0%, 60%, 100% { transform: translateY(0); }
+  30% { transform: translateY(-5px); }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .ai-main {
+    flex-direction: column;
+  }
+  
+  .ai-sidebar {
+    width: 100%;
+    position: static;
+  }
+  /* Suggested Products Header với nút X */
+.suggested-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.suggested-header h4 {
+  margin: 0;
+  font-size: 14px;
+  color: #2d3748;
+}
+
+.close-suggestions {
+  background: transparent;
+  border: none;
+  color: #a0aec0;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s;
+}
+
+.close-suggestions:hover {
+  background: #f56565;
+  color: white;
+}
+
+/* Điều chỉnh khoảng cách cho suggested products */
+.suggested-products {
+  padding: 12px;
+  border-top: 1px solid #e9ecef;
+  background: white;
+}
+}

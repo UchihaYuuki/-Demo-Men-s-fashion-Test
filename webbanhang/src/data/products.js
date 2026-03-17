@@ -1,0 +1,372 @@
+// src/data/products.js
+// Dữ liệu sản phẩm từ SanPhamMoi.html - ĐẢM BẢO KHÔNG TRÙNG
+
+export const products = [
+  {
+    id: 1,
+    title: 'Áo T shirt trơn in thể thao GSTS018',
+    price: 249000,
+    originalPrice: 349000,
+    discount: 30,
+    category: 'tshirt',
+    sizes: ['S', 'M', 'L', 'XL'],
+    image: 'https://cdn.hstatic.net/products/200000690725/2_c84d08a4d3984392b5b7be8a45e3e16e_master.png',
+    code: 'GSTS018',
+    description: 'Áo T shirt thể thao thoải mái, chất liệu cotton cao cấp'
+  },
+  {
+    id: 2,
+    title: 'Áo polo trơn kẻ in logo ngực GSTP846',
+    price: 294100,
+    originalPrice: 549000,
+    discount: 50,
+    category: 'polo',
+    sizes: ['S', 'M', 'L', 'XL'],
+    image: 'https://cdn.hstatic.net/products/200000690725/516104421_1149199893920257_5850816846793934718_n_9d42e5d2cbff417b925f63f96c39bdf4_master.jpg',
+    code: 'GSTP846',
+    description: 'Áo polo thiết kế trẻ trung, chất liệu cao cấp'
+  },
+  {
+    id: 3,
+    title: 'Quần Jeans basic slim GABJ861',
+    price: 285000,
+    originalPrice: 650000,
+    discount: 50,
+    category: 'jeans',
+    sizes: ['S', 'M', 'L', 'XL'],
+    image: 'https://cdn.hstatic.net/products/200000690725/gabj861_54484685053_o_140c294052274162b658fbf26501fd33_master.jpg',
+    code: 'GABJ861',
+    description: 'Quần jeans basic slim, form dáng chuẩn'
+  },
+  {
+    id: 4,
+    title: 'Áo T shirt họa tiết in logo Horse ngực FSTS026',
+    price: 250000,
+    originalPrice: 500000,
+    discount: 50,
+    category: 'tshirt',
+    sizes: ['S', 'M', 'L', 'XL'],
+    image: 'https://product.hstatic.net/200000690725/product/fsts026_54465884103_o_354f54bb65d54cd484a2667e4029765c_master.jpg',
+    code: 'FSTS026',
+    description: 'Áo T shirt họa tiết in logo ngựa'
+  },
+  {
+    id: 5,
+    title: 'Áo polo trơn bo kẻ in logo YuuKi ngực GSTP845',
+    price: 424150,
+    originalPrice: 499000,
+    discount: 15,
+    category: 'polo',
+    sizes: ['S', 'L', 'XL', 'XXL'],
+    image: 'https://cdn.hstatic.net/products/200000690725/img_3436_54628897422_o_8bf27af3641c43e7acf98f792d285e4c_master.jpg',
+    code: 'GSTP845',
+    description: 'Áo polo trơn bo kẻ in logo YuuKi'
+  },
+  {
+    id: 6,
+    title: 'Áo polo kẻ bo tay GSTP068',
+    price: 250000,
+    originalPrice: 550000,
+    discount: 50,
+    category: 'polo',
+    sizes: ['S', 'M'],
+    image: 'https://cdn.hstatic.net/products/200000690725/img_2319_54603392719_o_5aff09f5bc8b4d55a6abee9c4edf2187_master.jpg',
+    code: 'GSTP068',
+    description: 'Áo polo kẻ bo tay phong cách'
+  },
+  {
+    id: 7,
+    title: 'Quần short gió cạp lót chun GSBW005',
+    price: 280000,
+    originalPrice: 580000,
+    discount: 50,
+    category: 'short',
+    sizes: ['M', 'L'],
+    image: 'https://product.hstatic.net/200000690725/product/img_2738_54379360640_o_2ef9bbc9c89a40f193a722242e244b5f_master.jpg',
+    code: 'GSBW005',
+    description: 'Quần short gió cạp lót chun thoải mái'
+  },
+  {
+    id: 8,
+    title: 'Áo T shirt họa tiết in Water Nests FSTS020',
+    price: 250000,
+    originalPrice: 550000,
+    discount: 50,
+    category: 'tshirt',
+    sizes: ['S', 'M', 'L', 'XL'],
+    image: 'https://product.hstatic.net/200000690725/product/fsts020-7_53718204045_o_010430dafc98441d91854ed92f266854_master.jpg',
+    code: 'FSTS020',
+    description: 'Áo T shirt họa tiết in Water Nests'
+  },
+  {
+    id: 9,
+    title: 'Quần Jeans basic slim EABJ012',
+    price: 250000,
+    originalPrice: 500000,
+    discount: 50,
+    category: 'jeans',
+    sizes: ['S', 'M', 'L', 'XL'],
+    image: 'https://product.hstatic.net/200000690725/product/52774397950_1dbbf63d54_o_489fc8b595f240399c83116d892b5291_master.jpg',
+    code: 'YKJ001',
+    description: 'Quần jeans basic slim'
+  },
+  {
+    id: 10,
+    title: 'Áo T shirt thể thao basic FSTS002',
+    price: 250000,
+    originalPrice: 550000,
+    discount: 50,
+    category: 'tshirt',
+    sizes: ['S', 'M', 'L', 'XL'],
+    image: 'https://product.hstatic.net/200000690725/product/ts002_b2d5aadba36e451eb8a1ae1218d2d4b4_master.jpg',
+    code: 'FSTS002',
+    description: 'Áo T shirt thể thao basic'
+  },
+  {
+    id: 11,
+    title: 'Sơ mi dài tay trơn dệt hiệu ứng EATB011',
+    price: 250000,
+    originalPrice: 550000,
+    discount: 50,
+    category: 'so-mi',
+    sizes: ['S', 'M', 'L', 'XL'],
+    image: 'https://product.hstatic.net/200000690725/product/49022620701_76ef04f5b4_c_29b1088994274a82b1e4ea9ca627b56f_master.jpg',
+    code: 'EATB011',
+    description: 'Sơ mi dài tay trơn dệt hiệu ứng'
+  },
+  {
+    id: 12,
+    title: 'Áo khoác 3 lớp cổ đứng khuy bấm EWCP001',
+    price: 350000,
+    originalPrice: 700000,
+    discount: 50,
+    category: 'khoac',
+    sizes: ['S', 'M', 'L', 'XL'],
+    image: 'https://product.hstatic.net/200000690725/product/ewcp001-5_54139203105_o_e48a398489384ecb9f1e528a35b44019_master.jpg',
+    code: 'EWCP001',
+    description: 'Áo khoác 3 lớp cổ đứng khuy bấm'
+  },
+  {
+    id: 13,
+    title: 'Quần âu slim-fit cạp trơn FABT007',
+    price: 250000,
+    originalPrice: 550000,
+    discount: 50,
+    category: 'au',
+    sizes: ['S', 'M', 'L', 'XL'],
+    image: 'https://product.hstatic.net/200000690725/product/fabt007-2_54265974589_o_5992d479e166412cb2cc2d6dbfb28cde_master.jpg',
+    code: 'FABT007',
+    description: 'Quần âu slim-fit cạp trơn'
+  },
+  {
+    id: 14,
+    title: 'Áo polo monogram in tràn họa tiết GSTP051',
+    price: 299000,
+    originalPrice: 450000,
+    discount: 30,
+    category: 'polo',
+    sizes: ['S', 'M', 'L', 'XL'],
+    image: 'https://product.hstatic.net/200000690725/product/gstp051_54465618766_o_bf3102d226a243dcbf72648b7753faad_master.jpg',
+    code: 'GSTP051',
+    description: 'Áo polo monogram in tràn họa tiết'
+  },
+  {
+    id: 15,
+    title: 'Sơ mi ngắn tay trơn, thêu logo ở nẹp cúc GSTB020',
+    price: 190000,
+    originalPrice: 449000,
+    discount: 50,
+    category: 'so-mi',
+    sizes: ['M', 'L', 'XL'],
+    image: 'https://cdn.hstatic.net/products/200000690725/gstb020-4_54614600604_o_d1e6c1d07975419794682ce77b5a8883_master.jpg',
+    code: 'GSTB020',
+    description: 'Sơ mi ngắn tay trơn thêu logo'
+  },
+  {
+    id: 16,
+    title: 'Quần kaki dài basic cạp tender FABK0011',
+    price: 220000,
+    originalPrice: 520000,
+    discount: 50,
+    category: 'dai-kaki',
+    sizes: ['S', 'M', 'L', 'XL'],
+    image: 'https://product.hstatic.net/200000690725/product/bk003_7c93c471577f47548e6c128e663d2ec1_master.jpg',
+    code: 'FABK0011',
+    description: 'Quần kaki dài basic cạp tender'
+  },
+  {
+    id: 17,
+    title: 'Áo polo trơn vải họa tiết GSTP642',
+    price: 240000,
+    originalPrice: 580000,
+    discount: 40,
+    category: 'polo',
+    sizes: ['S', 'M', 'L', 'XL'],
+    image: 'https://cdn.hstatic.net/products/200000690725/0m1a8695_54627483641_o_9e95e75e5cab44cd9c9f115ae2bda58e_master.jpg',
+    code: 'GSTP642',
+    description: 'Áo polo trơn vải họa tiết'
+  },
+  {
+    id: 18,
+    title: 'Áo T shirt trơn in logo ngực FSTS001',
+    price: 290000,
+    originalPrice: 540000,
+    discount: 40,
+    category: 'tshirt',
+    sizes: ['S', 'M', 'L'],
+    image: 'https://product.hstatic.net/200000690725/product/2f9a4efd-a421-4626-bc7f-2f8abad98f3b_339ece4bffb048b3947389caf46108f3_master.jpg',
+    code: 'FSTS001',
+    description: 'Áo T shirt trơn in logo ngực'
+  },
+  {
+    id: 19,
+    title: 'Quần jeans basic slim GABJ844',
+    price: 480000,
+    originalPrice: 720000,
+    discount: 30,
+    category: 'jeans',
+    sizes: ['M', 'L', 'XL'],
+    image: 'https://product.hstatic.net/200000690725/product/gabj844_54480623257_o_1c5e0c6e78a84680bbec05afef0779b8_master.jpg',
+    code: 'GABJ844',
+    description: 'Quần jeans basic slim'
+  },
+  {
+    id: 20,
+    title: 'Sơ mi dài tay kẻ caro FATB045',
+    price: 370000,
+    originalPrice: 480000,
+    discount: 20,
+    category: 'so-mi',
+    sizes: ['S', 'M', 'L', 'XL'],
+    image: 'https://product.hstatic.net/200000690725/product/fatb045-2_54089787454_o_4ed075ac90944f5b813bc746a341b066_master.jpg',
+    code: 'FATB045',
+    description: 'Sơ mi dài tay kẻ caro'
+  },
+  {
+    id: 21,
+    title: 'Áo khoác gió 2 lớp lót lông cổ cao basic EWCU001',
+    price: 1250000,
+    originalPrice: 2500000,
+    discount: 15,
+    category: 'khoac',
+    sizes: ['S', 'M', 'L', 'XL'],
+    image: 'https://product.hstatic.net/200000690725/product/ewcu001-7_54070645259_o_a016a5b1ae634b0c92ac252e7017c636_master.jpg',
+    code: 'EWCU001',
+    description: 'Áo khoác gió 2 lớp lót lông'
+  },
+  {
+    id: 22,
+    title: 'Quần short khaki cạp chun basic, diễu gấu FSBK010',
+    price: 220000,
+    originalPrice: 280000,
+    discount: 21,
+    category: 'short',
+    sizes: ['S', 'M', 'L', 'XL'],
+    image: 'https://product.hstatic.net/200000690725/product/96e58d42-5699-4753-8ce7-104d62365009_6360313ac92b45af83c484b097de8b72_master.jpg',
+    code: 'FSBK010',
+    description: 'Quần short khaki cạp chun'
+  },
+  {
+    id: 23,
+    title: 'Áo polo trơn in logo ngực TRN GSTP843',
+    price: 320000,
+    originalPrice: 550000,
+    discount: 15,
+    category: 'polo',
+    sizes: ['M', 'L', 'XL'],
+    image: 'https://cdn.hstatic.net/products/200000690725/54552285652_7bc408f469_c_2cff1b6b19234130a97e23d4180cb46a_master.jpg',
+    code: 'GSTP843',
+    description: 'Áo polo trơn in logo ngực'
+  },
+  {
+    id: 24,
+    title: 'Áo T shirt trơn in logo ngực GSTS006',
+    price: 279000,
+    originalPrice: 390000,
+    discount: 20,
+    category: 'tshirt',
+    sizes: ['S', 'M', 'L', 'XL'],
+    image: 'https://cdn.hstatic.net/products/200000690725/img_2300_54603513950_o_e005cbe2160e40158c608f5e67013b74_master.jpg',
+    code: 'GSTS006',
+    description: 'Áo T shirt trơn in logo ngực'
+  },
+  {
+    id: 25,
+    title: 'Sơ mi dài tay trơn dệt kim FATB001',
+    price: 329000,
+    originalPrice: 450000,
+    discount: 10,
+    category: 'so-mi',
+    sizes: ['S', 'M', 'L', 'XL'],
+    image: 'https://product.hstatic.net/200000690725/product/tb001_91fb70f2afae4a40be6323ab00cd494a_master.jpg',
+    code: 'FATB001',
+    description: 'Sơ mi dài tay trơn dệt kim'
+  },
+  {
+    id: 26,
+    title: 'Quần jeans basic slim GABJ846',
+    price: 620000,
+    originalPrice: 780000,
+    discount: 20,
+    category: 'jeans',
+    sizes: ['M', 'L', 'XL'],
+    image: 'https://product.hstatic.net/200000690725/product/gabj846_54481835100_o_b7e513ea2f6a4a8a969000775f177c65_master.jpg',
+    code: 'GABJ846',
+    description: 'Quần jeans basic slim'
+  },
+  {
+    id: 27,
+    title: 'Quần kaki dài basic cạp tender FABK001',
+    price: 290000,
+    originalPrice: 370000,
+    discount: 10,
+    category: 'dai-kaki',
+    sizes: ['S', 'M', 'L'],
+    image: 'https://product.hstatic.net/200000690725/product/bk003_7c93c471577f47548e6c128e663d2ec1_master.jpg',
+    code: 'FABK001',
+    description: 'Quần kaki dài basic'
+  },
+  {
+    id: 28,
+    title: 'Áo khoác Puffer cổ cao FWCF004',
+    price: 680000,
+    originalPrice: 850000,
+    discount: 20,
+    category: 'khoac',
+    sizes: ['M', 'L', 'XL'],
+    image: 'https://product.hstatic.net/200000690725/product/54124098337_75b30db473_k_9cd8528585be46aa98a7bc9f3c64dedb_master.jpg',
+    code: 'FWCF004',
+    description: 'Áo khoác Puffer cổ cao'
+  },
+  {
+    id: 29,
+    title: 'Áo polo kẻ phối màu GSTP653',
+    price: 450000,
+    originalPrice: 580000,
+    discount: 15,
+    category: 'polo',
+    sizes: ['S', 'M', 'L', 'XL'],
+    image: 'https://cdn.hstatic.net/products/200000690725/515751808_1145152444325002_1726871286128929235_n_54857a2173e345f194525d0710716bef_master.jpg',
+    code: 'GSTP653',
+    description: 'Áo polo kẻ phối màu'
+  },
+  {
+    id: 30,
+    title: 'Quần short đũi cạp chun basic, gập gấu FSBI001',
+    price: 350000,
+    originalPrice: 450000,
+    discount: 20,
+    category: 'short',
+    sizes: ['S', 'M', 'L'],
+    image: 'https://product.hstatic.net/200000690725/product/fsbi001-9_53586798344_o_d2e78b3de56d4b098fe40d3310c7f996_master.jpg',
+    code: 'FSBI001',
+    description: 'Quần short đũi cạp chun'
+  }
+];
+
+// Loại bỏ sản phẩm trùng nếu có (dựa trên id)
+export const uniqueProducts = products.filter((product, index, self) => 
+  index === self.findIndex(p => p.id === product.id)
+);
+
+export const productsArray = uniqueProducts;
