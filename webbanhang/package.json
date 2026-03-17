@@ -12,6 +12,7 @@
     "react-scripts": "^5.0.1"
   },
   "scripts": {
+    "vercel-build": "npm ci && npm run build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -19,7 +20,7 @@
     "server": "json-server --watch db.json --port 5000",
     "server:delay": "json-server --watch db.json --port 5000 --delay 1000",
     "dev": "concurrently \"npm start\" \"npm run server\"",
-    "vercel-build": "echo 'Node version:' && node --version && echo 'NPM version:' && npm --version && npm run build"
+    
   },
   "eslintConfig": {
     "extends": [
